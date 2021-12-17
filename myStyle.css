@@ -1,0 +1,501 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gothic A1', sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f2f3ee;
+    overflow-x: hidden;
+}
+
+
+.menuBar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #d2d2d2;
+}
+
+.menuBar_items{
+    display: flex;
+    list-style: none;
+}
+
+.menuBar_items li{
+    width: 123px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+
+.menuBar_items div{
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-color: #d2d2d2;
+}
+
+.menuBar_items li:hover{
+    background-color: #f2f3ee;
+}
+
+a{
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+
+#buy{
+    color: #8866f5;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 42px;
+}
+
+#toggleBtn{
+    position: absolute;
+    right: 16px;
+    top: 17.5px;
+    display: none;
+}
+
+#sticky1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+#sticky2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+#sticky{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+
+#inline-block{
+    width: 24.3vw;
+    height: 100vh;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+}
+
+#keyboard{
+    width: 75vw;
+}
+
+#product{
+    width: 95%;
+    display: block;
+    margin: 0px auto;
+}
+
+.product{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sa.imgBox1{
+    width: 75vw;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.sa.imgBox2{
+    width: 24.3vw;
+    height: 43.2vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding-top: 89px;
+}
+
+.sa.textBox1{
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 32.5%;
+    padding-bottom: 35%;
+}
+
+.sa.textBox1-2{
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sa.textBox2{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 32.5%;
+    padding-bottom: 35%;
+    display: none;
+}
+
+.sa.textBox22{
+  display: none;
+}
+
+.sa.imgBox{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 32.5%;
+    padding-bottom: 35%;
+    
+}
+
+
+.sa.textBox2-2{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 43px;
+}
+
+#pcText1{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    line-height: 32.5px;
+}
+
+#pcText2{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    line-height: 50px;
+}
+
+#pcText3{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pcText4{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px
+}
+
+
+#pcText40{
+    font-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    color: white;
+}
+
+#pcText50{
+    font-size: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    color: black;
+}
+
+#pcText10{
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    color: white;
+}
+
+#mobileText1{
+    display: none;
+}
+
+#mobileText2{
+    display: none;
+}
+
+#mobileText3{
+    display: none;
+}
+
+#mobileText4{
+    display: none;
+}
+
+#mobileText10{
+    display: none;
+}
+
+#mobileText30{
+    display: none;
+}
+
+
+
+@media (max-width: 768px) /*ipad*/
+{
+   
+}
+
+@media (max-width: 640px) /*iphone*/
+{   
+
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .menuBar{
+        height: 48px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .menuBar_items{
+        margin-top: 49px;
+        flex-direction: column;
+        display: none;
+        background-color: white;
+    }
+
+    .menuBar_items li{
+        width: 100vw;
+        height: 48px;
+        text-align: center;
+        line-height: 48px;
+    }
+
+    .menuBar_items div{
+        border-style: solid;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-color: #d2d2d2;
+    }
+
+    #toggleBtn{
+        display: block;
+    }
+
+    .menuBar_items.active,
+    .menuBar_items.active{
+        display: flex;
+    }
+
+    .sa.imgBox2{
+        width: 94vw;
+        height: 50%;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sa.textBox1{
+        display: none;
+    }
+
+    .sa.textBox2{
+        margin: 0 16.4px;
+        width: 100%;
+        font-size: 27px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 32.5%;
+        padding-bottom: 35%;
+        display: block;
+    }
+
+    .sa.textBox22{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    #pcText1{
+        display: none;
+    }
+    
+    #pcText2{
+        display: none;
+    }
+
+    #pcText3{
+        display: none;
+    }
+
+    #pcText4{
+        display: none;
+    }
+    
+    #pcText40{
+        display: none;
+    }
+
+    #mobileText1{
+        display: block;
+        font-size: 20px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 26px;
+        line-height: 32.5px;
+    }
+
+    #mobileText10{
+        display: block;
+        font-size: 15px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 26px;
+        line-height: 28px;
+    }
+    
+    #mobileText2{
+        display: block;
+        font-size: 25px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 38px;
+        line-height: 38px;
+    }
+
+    #mobileText3{
+        display: block;
+        font-size: 40px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    #mobileText30{
+        display: block;
+        font-size: 50px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        color: white;
+    }
+
+    
+    #mobileText4{
+        display: block;
+        display: block;
+        font-size: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #inline-block{
+        width: 94vw;
+        height: 100vh;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+    }
+
+    .sa.imgBox2{
+        width: 94vw;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10px;
+        margin-top: 89px;
+        margin: 0;
+    }
+
+    #product{
+        width: 95%;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .product{
+        width: 100vw;
+        height: 100vh;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+}
